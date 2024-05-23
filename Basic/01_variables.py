@@ -28,7 +28,16 @@ print("este es el valor de :", bool_var)
 #Funciones del sistema
 (print(len(my_str_var)))
 
-# variables en una sola linea 
+#inputs - 
+first_name = input('What is your name: ')
+age = input('How old are you? ')
+
+print(first_name)
+print(age)
+
+
+
+# variables en una sola linea - no es ideal, hace muy dificil el mantenimiento del codigo
 name, surname, alias, age = "Bruce", "Wayne", "Batman", 33
 print("Hola mi nombre es", name, surname, ", y me conocen como", alias, "y tengo", age, "anios de edad")
 
